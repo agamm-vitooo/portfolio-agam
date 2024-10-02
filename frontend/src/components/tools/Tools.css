@@ -1,0 +1,35 @@
+/* Untuk membuat efek slider bergerak */
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-content {
+  display: flex;
+  width: max-content;
+  animation: slide 15s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Tambahkan animasi saat ikon muncul */
+.icon-item {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.icon-item:nth-child(-n+5) {
+  opacity: 1; /* Pastikan 5 ikon pertama terlihat dari awal */
+}
+
+/* Ikon lainnya akan fade in saat muncul */
+.icon-item:nth-child(n+6) {
+  opacity: 1;
+}
