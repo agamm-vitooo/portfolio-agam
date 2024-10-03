@@ -100,7 +100,7 @@ const Contact = () => {
         <iframe
           title="map"
           className="w-full h-64 md:h-full"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31652.04659771767!2d106.81118102389482!3d-6.292497790434638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1975d04df47%3A0xc9310f7dd2c2228!2sWahyu%20Sport!5e0!3m2!1sen!2sid!4v1635956323498!5m2!1sen!2sid"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247.92018113828146!2d106.72152067902135!3d-6.167849117821591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f827b95decdf%3A0x55a8b237043f1f69!2sJl.%20Al-Barokah%20II%20No.136%208%2C%20RT.8%2FRW.1%2C%20Duri%20Kosambi%2C%20Kecamatan%20Cengkareng%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011750!5e0!3m2!1sid!2sid!4v1727881430988!5m2!1sid!2sid"
           allowFullScreen=""
           loading="lazy"
         ></iframe>
@@ -130,7 +130,7 @@ const Contact = () => {
           <motion.input
             type="text"
             placeholder="Name"
-            className="w-full p-2 md:p-3 text-black rounded-md focus:outline-none"
+            className="w-full p-2 md:p-3 text-white rounded-md focus:outline-none"
             variants={formVariants}
             whileFocus={{ scale: 1.05 }}
           />
@@ -139,7 +139,7 @@ const Contact = () => {
           <motion.input
             type="email"
             placeholder="Email"
-            className="w-full p-2 md:p-3 text-black rounded-md focus:outline-none"
+            className="w-full p-2 md:p-3 text-white rounded-md focus:outline-none"
             variants={formVariants}
             whileFocus={{ scale: 1.05 }}
           />
@@ -147,7 +147,7 @@ const Contact = () => {
           {/* Message Text Area */}
           <motion.textarea
             placeholder="Message"
-            className="w-full p-2 md:p-3 h-24 md:h-32 text-black rounded-md focus:outline-none"
+            className="w-full p-2 md:p-3 h-24 md:h-32 text-white rounded-md focus:outline-none"
             variants={formVariants}
             whileFocus={{ scale: 1.05 }}
           />
